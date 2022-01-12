@@ -1,2 +1,2 @@
-# Curso-Python-Exerc-cios
+# Curso-Python-Exercícios
 Todos os exercícios que fiz.
