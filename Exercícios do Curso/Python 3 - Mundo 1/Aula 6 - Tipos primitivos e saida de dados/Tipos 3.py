@@ -1,0 +1,6 @@
+n1l1 = input('digite um número ou letra')
+print('É numérico?',n1l1.isnumeric())
+n2l2 = input('Digite um número ou letra')
+print('É alfabético?',n2l2.isalpha())
+n3l3 = input('Digite um numero ou letra')
+print('É alpha numérico?',n3l3.isalnum())

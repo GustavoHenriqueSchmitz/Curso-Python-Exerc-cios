@@ -1,0 +1,30 @@
+he = hex(n)[2:]
+print('Escolha umas das bases para conversão:')
+print(' ')
+print('-=-'* 10)
+print('\033[31m[1] Converter para binário \033[m')
+print('')
+print('\033[32m[2] Converter para octal \033[m')
+print(' ')
+print('\033[33m[3] Converter para hexadecimal\033[m')
+print('-=-'* 10)
+print(' ')
+escolha = int(input('Qual das opções?: '))
+if escolha == 1:
+    print('')
+    print('-=-'* 11)
+    print('\033[31mO número {} em binário é: {}\033[m'.format(n, b))
+    print('-=-'* 11)
+elif escolha == 2:
+    print('')
+    print('-=-'* 11)
+    print('\033[32mO número {} em octal é: {}\033[m'.format(n, oc))
+    print('-=-'* 11)
+elif escolha == 3:
+    print('')
+    print('-=-'* 11)
+    print('\033[33mO número {} em hexadecimal é: {}\033[m'.format(n, he))
+    print('-=-'* 11)
+else:
+    print('')
+    print('\033[31m>>>Digite um valor Valido. Tente novamente.<<<.')
